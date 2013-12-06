@@ -1,5 +1,5 @@
 var request = require('request'),
-	cheerio = require('cheerio');
+    cheerio = require('cheerio');
 
 	request({url: 'http://thehackernews.com/', encoding: 'binary'}, function(err, resp, body){
 		if(!err && resp.statusCode == 200){
